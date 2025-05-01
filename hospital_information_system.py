@@ -5,8 +5,8 @@ import time
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="Eyal2004",
-    database="test"
+    passwd="passrod",
+    database="database_name"
 )
 
 mycursor = db.cursor()
