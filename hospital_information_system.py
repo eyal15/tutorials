@@ -5,7 +5,7 @@ import time
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="passrod",
+    passwd="password",
     database="database_name"
 )
 
