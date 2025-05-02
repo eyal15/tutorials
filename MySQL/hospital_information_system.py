@@ -86,8 +86,8 @@ def get_doctor_details(doctor_id):
 
 
 # print("Question 2: Read given hospital and doctor details")
-#get_hospital_details(3)
-#get_doctor_details(105)
+get_hospital_details(3)
+get_doctor_details(105)
 
 # ========================================================================
 # ========================================================================
@@ -101,8 +101,8 @@ def get_specialist_doctors_list(speciality, salary):
     for doctor in doctors:
         get_doctor_details(doctor[0])
 
-# print("\nPrinting doctors whose specialty is Garnacologist and salary greater than 30000")
-#get_specialist_doctors_list("Garnacologist", 30000)
+print("\nPrinting doctors whose specialty is Garnacologist and salary greater than 30000")
+get_specialist_doctors_list("Garnacologist", 30000)
 
 
 # ========================================================================
@@ -117,7 +117,7 @@ def get_doctors(hospital_id):
     for hospital in hospitals:
         get_hospital_details(hospital[2])
 
-# get_doctors(2)
+get_doctors(2)
 
 # ========================================================================
 # ========================================================================
@@ -137,4 +137,4 @@ def update_doctor_experience(doctor_id):
     get_doctor_details(doctor_id)
 
 
-# update_doctor_experience(101)
+update_doctor_experience(101)
